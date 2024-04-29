@@ -1,0 +1,2543 @@
+
+
+
+/* LOGOUT CSS FILE */
+
+
+.veryFirstLogoutDiv{
+    margin: 0px;
+    padding: 0;
+    width: 10rw;
+    height: 90vh;
+    padding-top: 50px;
+    background-color: rgba(206, 235, 233, 0.76);
+}
+.logoutDiv2{
+    margin: auto;
+    border: 1px solid white;
+    font-family: monospace;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    text-align: center;
+    padding: 50px;
+    border-radius: 12px;
+    margin-bottom: 50px;
+    width: fit-content;
+    background-color: white;
+}
+.logoutDiv2>p{
+    line-height: 27px;
+}
+.logoutDiv2>h3{
+    color: goldenrod;
+}
+.logoutDiv2>button{
+    background-color: rgba(233, 21, 67, 0.714);
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    border: 1px solid transparent;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+}
+.logoutDiv2>button:hover{
+    background-color: blue;
+}
+@media all and (max-width:400px) {
+    .veryFirstLogoutDiv{
+        width: fit-content;
+    }
+    
+}
+
+
+
+/* WISHLIST FILE CSS */
+
+
+.wishListItemsDiv1{
+           
+    border: 1px solid transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    background-color: rgb(238,238,238);
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+.wishListItemsDiv1>div{
+    border: 1px solid transparent;
+    background-color: white;
+    width: 70%;   
+    margin: auto; 
+}
+.wishListItemsDiv1>div:nth-child(1){
+    background-color: rgb(238,238,238);
+}
+.wishListItemsDiv1>div:nth-child(1)>div{
+    background-color: white;
+    padding: 10px;
+}
+
+.itemDivInWishList{
+    border: 1px solid transparent;
+    display:flex;
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.itemDivInWishList>div{
+    border: 1px solid transparent;
+}
+.itemDivInWishList>div:nth-child(1){
+    width: fit-content;
+    padding-right: 10px;
+}
+.itemDivInWishList>div:nth-child(2){
+    width: 100%;
+}
+.itemDivInWishList>div:nth-child(2)>div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid transparent;
+}
+.itemDivInWishList>div:nth-child(2)>div:nth-child(1)>button{
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+.itemDivInWishList>div:nth-child(2)>div:nth-child(2){
+    font-size: 13px;
+    width: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.itemDivInWishList>div:nth-child(2)>div:nth-child(2)>p{
+    text-align: left;
+    width: 70%;
+}
+
+.addToCartBtnInWishList{
+    background-color: gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: 600;
+    font-size: 17px;
+    color: white;
+    border: 1px solid gray;
+}
+.addToCartBtnInWishList:hover{
+    background-color: purple;
+    border: 1px solid purple;
+}
+.itemDivInWishList>div:nth-child(1)>img{
+        width: 120px;
+        height: 100%;
+    }
+
+@media all and (max-width:1200px) {
+ 
+    .wishListItemsDiv1>div:nth-child(1){
+        width: 90%;
+       
+    }
+   
+}
+@media all and (max-width:900px) {
+   
+    .wishListItemsDiv1>div:nth-child(1){
+        width: 90%;
+        
+        padding-left: 0px;
+        margin: auto;
+    }
+
+}
+@media all and (max-width:500px) {
+
+    .itemDivInWishList>div:nth-child(2){
+        padding: 0px;
+        margin: 0;
+        width: fit-content;
+    }
+    .itemDivInWishList>div:nth-child(2)>div:nth-child(2){
+       padding-left: 0px;
+       padding-right: 0px;
+        border: 1px solid transparent;
+    }
+    .addToCartBtnInWishList{
+       padding-left: 5px;
+       padding-right: 5px;
+       padding-top: 5px;
+       padding-bottom: 5px;
+       font-size: 14px;
+       font-weight: 500;
+       
+    }
+}
+@media all and (max-width:400px) {
+    .itemDivInWishList>div:nth-child(1)>img{
+        width: 80px;
+        height: 60%;
+    }
+}
+
+
+
+/* CART FILE CSS */
+
+
+.cartItemsDiv1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    border: 1px solid transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    background-color: rgb(238,238,238);
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+.cartItemsDiv1>div{
+    border: 1px solid transparent;
+    
+    background-color: white;
+    width: 70%;
+  
+    
+}
+.cartItemsDiv1>div:nth-child(1){
+    padding-left: 5%;
+    margin-left: 20%;
+    background-color: rgb(238,238,238);
+
+}
+.cartItemsDiv1>div:nth-child(1)>div{
+    background-color: white;
+    padding: 10px;
+    padding-left: 5%;
+ 
+}
+.cartItemsDiv1>div:nth-child(2){
+    width: 45%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.itemDivInCart{
+    border: 1px solid transparent;
+    display:flex;
+    gap: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.itemDivInCart>div{
+    border: 1px solid transparent;
+}
+.itemDivInCart>div:nth-child(1){
+    width: fit-content;
+}
+.itemDivInCart>div:nth-child(2){
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+.itemDivInCart>div:nth-child(2)>div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid transparent;
+}
+.itemDivInCart>div:nth-child(2)>div:nth-child(1)>button{
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+.itemDivInCart>div:nth-child(2)>div:nth-child(2){
+    font-size: 13px;
+    width: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.quantityShowDiv{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 5px;
+}
+.quantityShowDiv>button{
+    border: 1px solid white;
+    outline: 1px solid white;
+    font-size: 16px;
+    background-color: white;
+}
+.quantityShowDiv>button:hover{
+    border: 1px solid lightgrey;
+    cursor: pointer;
+}
+.cartItemsDiv1>div:nth-child(2)>h2{
+    border-bottom: 1px solid rgba(211, 211, 211, 0.481);
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.detailTotalDiv1{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: monospace;
+}
+.hrBorderBottonDiv{
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+.checkoutBtnInCart{
+    background-color: rgb(1,136,73);
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: 600;
+    font-size: 17px;
+    color: white;
+    border: 1px solid rgb(1,136,73);
+}
+.checkoutBtnInCart:hover{
+    background-color: green;
+    border: 1px solid green;
+}
+.cartItemsDiv1>div:nth-child(2)>h4{
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.cartItemsDiv1>div:nth-child(2)>h6{
+    font-weight: 400;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.629);
+    letter-spacing: 1px;
+}
+.imagesListOfCardsInCart{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+@media all and (max-width:1200px) {
+    .cartItemsDiv1{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       gap: 30px;
+    }
+    .cartItemsDiv1>div:nth-child(1){
+        width: 90%;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .cartItemsDiv1>div:nth-child(2){
+       width: 70%;
+       margin-left: 10px;
+    }
+}
+@media all and (max-width:900px) {
+    .cartItemsDiv1{
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+       gap: 30px;
+       row-gap: 30px;
+    }
+    .cartItemsDiv1>div:nth-child(1){
+        width: 90%;
+        
+        padding-left: 0px;
+        margin: auto;
+    }
+    .cartItemsDiv1>div:nth-child(2){
+       width: 80%;
+       margin: auto;
+       text-align: center;
+ 
+    }
+}
+@media all and (max-width:500px) {
+
+    .itemDivInCart>div:nth-child(2){
+        padding: 0px;
+        margin: 0;
+        width: fit-content;
+    }
+    .itemDivInCart>div:nth-child(2)>div:nth-child(2){
+       padding-left: 0px;
+       padding-right: 0px;
+        border: 1px solid white;
+    }
+}
+@media all and (max-width:400px) {
+    .itemDivInCart>div:nth-child(1)>img{
+        width: 80px;
+        height: 100%;
+    }
+}
+@media all and (max-width:300px) {
+    .cartItemsDiv1{
+        width: fit-content;
+        padding-right: 10px;
+    }
+    .cartItemsDiv1>div:nth-child(1){
+        padding-left: 0px;
+        width: fit-content;
+    }
+    .imagesListOfCardsInCart{
+        display: flex;
+        gap: 5px;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+
+
+/* PRODUCT LISTING ITEMS FILE CSS */
+
+
+
+.itemsListDiv{
+    border: 1px solid white;
+    padding: 5px;
+}
+.itemsListDiv>div:nth-child(1){
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    border: 1px solid white;
+    padding: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+.itemsListDiv>div:nth-child(1)>div{
+    border: 1px solid white;
+    padding: 5px;
+}
+.itemsListDiv>div:nth-child(1)>div>img{
+    width: 98%;
+    height: auto;
+    border: 1px solid white;
+}
+.itemsListDiv>div:nth-child(1)>div>div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+.itemsListDiv>div:nth-child(1)>div>div>p{
+    border: 1px solid white;
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.814);
+    font-family: monospace;
+    letter-spacing: 0.2px;
+    width: 80%;
+   
+    text-align: left;
+}
+.itemsListDiv>div:nth-child(1)>div>h4{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 90%;
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 13.5px;
+    font-weight: 600;
+}
+.skyBlueBoxShadowColor:hover{
+    box-shadow: 1px 1px 1px 1px skyblue;
+    border: 2px solid skyblue;
+}
+@media all and (max-width:1000px) {
+    .itemsListDiv>div:nth-child(1){
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        row-gap: 20px;
+        
+    }
+}
+@media all and (max-width:750px) {
+    .itemsListDiv>div:nth-child(1){
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 20px;
+        
+    }
+}
+@media all and (max-width:300px) {
+    .itemsListDiv{
+        width: fit-content;
+    }
+    .itemsListDiv>div:nth-child(1){
+        width: fit-content;
+    }
+}
+
+
+
+/* RESET PSWD CSS FILE */
+
+.loginDiv2{
+            
+    border: 1px solid transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(238,238,238);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+}
+.h1LoginDiv2{
+    font-size: 50px;
+    letter-spacing: -0.2px;
+    font-family: monospace;
+    
+}
+.loginMainDiv2{
+    background-color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 1px solid transparent;
+}
+.loginMainDiv2>div:nth-child(1){
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   border: 1px solid white;
+   padding-top: 20px;
+   padding-bottom: 20px;
+  
+}
+.loginMainDiv2>div:nth-child(1)>div{
+    border: 1px solid white;
+   
+    border-bottom: 1px solid lightgrey;
+}
+.loginMainDiv2>div:nth-child(1) button{
+    background-color: white;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    border: 1px solid white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.621);
+}
+.loginMainDiv2>div:nth-child(1)>div:hover{
+    border-bottom: 2px solid rgba(0, 0, 255, 0.647);
+    color: black;
+}
+.loginMainDiv2>div:nth-child(1)>div:nth-child(1){
+    border-right: 1px solid rgba(0, 0, 0, 0.181);
+}
+
+.loginMainDiv2>div:nth-child(1) button:hover{
+    color: black;
+}
+.privacyPolicyDiv2{
+    text-align: center;
+    color: gray;
+    font-size: 13px;
+    font-family: monospace;
+    
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.privacyPolicyDiv2>span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.loginMainDiv2>div:nth-child(2){
+    border: 1px solid white;
+    width: 80%;
+    padding: 2%;
+    margin: auto;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;   
+}
+.loginMainDiv2>div:nth-child(2)>h2{
+    font-size: 20px;
+}
+.loginMainDiv2>div:nth-child(2)>p{
+    line-height: 25px;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.814);
+}
+.forgetPswdDiv{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid white;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 600;
+    color: gray;
+    letter-spacing: 1px;
+    border: 1px solid white;
+    width: 60%;
+    text-align: justify;
+    padding-left:  2%;
+}
+.forgetPswdDiv>input{
+    width: 90%;
+    height: 30px;
+    font-size: 14px;
+    padding: 10px;
+    font-family: monospace;
+    box-shadow: 1px 1px 1px 1px white;
+    border: 1px solid lightgray;
+    outline: 1px solid transparent;
+}
+
+.forgetPswdDiv>input:hover{
+    outline: 1px solid skyblue;
+    box-shadow: 1px 1px 1px 1px skyblue;
+    border: 1px solid skyblue;
+}
+.forgetPswdDiv>button{
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 95%;
+    
+    border: 1px solid black;
+}
+.forgetPswdDiv>button:hover{
+    background-color: rgb(61, 59, 59);
+    border: 1px solid rgb(61,59,59);
+}
+
+
+@media all and (max-width:1000px) {
+    .loginMainDiv2{
+        width: fit-content;
+        height: fit-content;
+    }
+}
+@media all and (max-width:600px) {
+    .loginDiv2{
+        width: fit-content;
+    }
+    .forgetPswdDiv{
+        width: 70%;
+    }
+}
+@media all and (max-width:400px) {
+   
+    .forgetPswdDiv{
+        width: 90%;
+    }
+   
+}
+@media all and (max-width:300px) {
+   
+   .forgetPswdDiv>input{
+       width: 80%;
+   }
+}
+
+
+
+
+/* LOGIN CSS FILE */
+
+
+
+.loginDiv{
+            
+    border: 1px solid transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(238,238,238);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+}
+.h1LoginDiv{
+    font-size: 50px;
+    letter-spacing: -0.2px;
+    font-family: monospace;
+    
+}
+.loginMainDiv{
+    background-color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 1px solid transparent;
+}
+.loginMainDiv>div:nth-child(1){
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   border: 1px solid white;
+   padding-top: 20px;
+   padding-bottom: 20px;
+  
+}
+.loginMainDiv>div:nth-child(1)>div{
+    border: 1px solid white;
+   
+    border-bottom: 1px solid lightgrey;
+}
+.loginMainDiv>div:nth-child(1) button{
+    background-color: white;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    border: 1px solid white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.621);
+}
+.loginMainDiv>div:nth-child(1)>div:hover{
+    border-bottom: 2px solid rgba(0, 0, 255, 0.647);
+    color: black;
+}
+.loginMainDiv>div:nth-child(1)>div:nth-child(1){
+    border-right: 1px solid rgba(0, 0, 0, 0.181);
+}
+
+.loginMainDiv>div:nth-child(1) button:hover{
+    color: black;
+}
+.privacyPolicyDiv{
+    text-align: center;
+    color: gray;
+    font-size: 13px;
+    font-family: monospace;
+    
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.privacyPolicyDiv>span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.loginMainDiv>div:nth-child(2){
+    border: 1px solid white;
+    
+}
+.loginMainDiv>div:nth-child(2)>form{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid white;
+    margin: auto;
+    width: 50%;
+    margin-top: 40px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: gray;
+    letter-spacing: 1px;
+}
+.loginMainDiv>div:nth-child(2)>form>input{
+    width: 90%;
+    height: 30px;
+    font-size: 14px;
+    padding: 10px;
+    font-family: monospace;
+    box-shadow: 1px 1px 1px 1px white;
+    border: 1px solid lightgray;
+    outline: 1px solid transparent;
+}
+
+.loginMainDiv>div:nth-child(2)>form>input:hover{
+    outline: 1px solid skyblue;
+    box-shadow: 1px 1px 1px 1px skyblue;
+    border: 1px solid skyblue;
+}
+.loginMainDiv>div:nth-child(2)>form>button{
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 95%;
+    
+    border: 1px solid black;
+}
+.loginMainDiv>div:nth-child(2)>form>button:hover{
+    background-color: rgb(61, 59, 59);
+    border: 1px solid rgb(61,59,59);
+}
+.loginMainDiv>div:nth-child(2)>form>p{
+    text-align: center;
+    margin: auto;
+    border: 1px solid white;
+    font-weight: 500;
+    font-family: monospace;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    line-height: 30px;
+    width: fit-content;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.693);
+}
+.loginMainDiv>div:nth-child(2)>form>p:hover{
+   
+    border-bottom: 1px solid rgba(0, 0, 255, 0.305);
+    color: gray;
+}
+.loginMainDiv>div:nth-child(2)>form>h3{
+    color: black;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.socialMediaMultipleButtonsDiv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap: 10px;
+    border: 1px solid white;
+    padding: 3px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.socialMediaMultipleButtonsDiv>div{
+    border: 1px solid white;
+    padding: 2px;
+}
+.socialMediaMultipleButtonsDiv>div>button{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: white;
+    border: 1px solid rgba(211, 211, 211, 0.542);
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+    letter-spacing: 0px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.socialMediaMultipleButtonsDiv>div>button:hover{
+    color: gray;
+}
+.whereHasTwitterGoneDiv{
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: fit-content;
+    border: 1px solid white;
+    color: rgba(0, 0, 0, 0.766);
+    padding: 5px;
+    margin: auto;
+    letter-spacing: 0.6px;
+    text-align: center;
+}
+.whereHasTwitterGoneDiv:hover{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.659);
+    color: gray;
+}
+@media all and (max-width:1300px) {
+    .socialMediaMultipleButtonsDiv{
+        width: fit-content;
+    }
+}
+@media all and (max-width:1000px) {
+    .loginMainDiv{
+        width: fit-content;
+        height: fit-content;
+    }
+}
+@media all and (max-width:600px) {
+    .loginDiv{
+        width: fit-content;
+    }
+}
+
+
+
+
+/* WISHLIST BEFORE SIGN IN CSS FILE */
+
+
+.savedItemsDiv{
+    margin: auto;
+    border: 1px solid white;
+    font-family: monospace;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: fit-content;
+}
+.savedItemsDiv>p{
+    line-height: 27px;
+}
+.savedItemsDiv>button{
+    background-color: rgb(45,45,45);
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    border: 1px solid transparent;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+}
+.savedItemsDiv>button:hover{
+    background-color: black;
+}
+
+
+
+/* CART BEFORE SIGNIN CSS FILE */
+
+.emptyBagInCart{
+    margin: auto;
+    border: 1px solid white;
+    font-family: monospace;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: fit-content;
+    
+}
+.emptyBagInCart>p{
+    line-height: 27px;
+}
+.emptyBagInCart>button{
+    background-color: rgb(1,136,73);
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    border: 1px solid transparent;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+}
+.emptyBagInCart>button:hover{
+    background-color: green;
+}
+
+
+
+/* SINGLE ITEM CSS FILE */
+
+
+
+.singleProductDiv{
+    margin: 0;
+    padding: 0;
+    
+    margin-top: 20px;
+}
+.firstDivOfSingleProductDiv>span{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.4px;
+    font-size: 13px;
+    color: rgb(104, 103, 103);
+}
+.secondDivOfSingleProductItems{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border: 1px solid white;
+    padding: 10px;
+}
+.secondDivOfSingleProductItems>div{
+    border: 1px solid white;
+    width: 100%;
+    height: 100%;
+}
+.secondDivOfSingleProductItems>div:nth-child(1){
+    margin: auto;
+    
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.secondDivOfSingleProductItems>div:nth-child(1)>div{
+    border: 1px solid white;
+   
+    font-size: 40px;
+    color: black;
+    font-weight: 600;
+}
+.secondDivOfSingleProductItems>div:nth-child(1)>img{
+     width: 70%;
+     height: 100%;
+    
+}
+.secondDivOfSingleProductItems>div:nth-child(1)>img:hover{
+    box-shadow: 1px 1px 1px 1px lightskyblue ;
+     border: 1px solid rgb(55, 55, 210);
+}
+.secondDivOfSingleProductItems>div:nth-child(2)>h3{
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.782);
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.secondDivOfSingleProductItems>div:nth-child(2)>h3:nth-child(2){
+    font-weight: 600;
+    color: gray;
+    padding-top: 2px;
+}
+.skyBlueColorOfferDiv{
+    width: fit-content;
+    margin-left: 30px;
+    letter-spacing: 1px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 5px;
+    background-color: rgb(205,226,245);
+    font-family: monospace;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.skyBlueColorOfferDiv>p>span{
+    color: black;
+    font-weight: 600;
+}
+.colorDivImag{
+    width: fit-content;
+    margin-left: 30px;
+    letter-spacing: 1px;
+    font-size: 13px;
+    gap: 15px;
+    padding: 5px;
+    margin-top: 10px;
+    font-family: monospace;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.colorDivImag>div{
+    display: flex;
+    gap: 10px;
+}
+.colorDivImag>div>img{
+    border: 1px solid white;
+}
+.colorDivImag>div>img:hover{
+    border: 1px solid skyblue;
+    
+}
+.sizeDivOfSingleProductDiv{
+    
+    margin-left: 30px;
+    letter-spacing: 1px;
+    font-size: 13px;
+    gap: 15px;
+    padding: 5px;
+    margin-top: 10px;
+    font-family: monospace;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+.sizeDivOfSingleProductDiv>select{
+    width: 300px;
+    height: 34px;
+    color: gray;
+    padding-left: 4px;
+    outline: 0.4px solid lightgrey;
+}
+.sizeDivOfSingleProductDiv>select:hover{
+    border: 0.5px solid lightgrey;
+    outline: 0.4px solid lightgrey;
+    box-shadow: 1px 1px 1px 1px skyblue;
+}
+.sizeDivOfSingleProductDiv>div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.addToBagBtnOfSingleProductDiv{
+    background-color: green;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 17px;
+    border: 1px solid green;
+    
+}
+.wishlistBtnOfSingleProduct{
+    background-color: white;
+    border: 1px solid white;
+   
+}
+
+.wishlistBtnOfSingleProduct>img:hover{
+    border: 2px solid skyblue;
+    box-shadow: 1px 1px 1px skyblue;
+}
+.starsDivOfSingleProduct{
+    margin-left: 25px;
+    padding: 5px;
+    font-family: monospace;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.deliveryDivOfSingleProduct{
+    border: 0.5px solid rgba(211, 211, 211, 0.562);
+    width: fit-content;
+    height: fit-content;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 1px;
+    align-items: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.deliveryDivOfSingleProduct>p{
+    border: 1px solid white;
+    line-height: 30px;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: gray;
+    font-size: 14px;
+}
+.deliveryDivOfSingleProduct>p>span{
+    text-decoration: underline;
+}
+.detailsDivOfSingleProductItem{
+    width: 300px;
+    margin-left: 30px;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: 1px solid white;
+    padding: 5px;
+    margin-top: 10px;
+    font-family: monospace;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.detailsDivOfSingleProductItem>div>div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: 0.5px solid rgba(211, 211, 211, 0.481);
+    letter-spacing: 0.8px;
+}
+.detailsDivOfSingleProductItem>div>div:nth-child(2){
+    /* display: none;   */
+    letter-spacing: 0.1px ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.727);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.detailsDivOfSingleProductItem>div>div:nth-child(2) span{
+    font-weight: 500;
+
+}
+.detailsDivOfSingleProductItem>div>div:nth-child(1):hover{
+    border: 1px solid skyblue;
+    box-shadow: 1px 1px 1px 1px skyblue;
+}
+/* .detailsDivOfSingleProductItem>div>div:nth-child(1):hover~.detailsDivOfSingleProductItem>div>div:nth-child(2){
+    display: block;
+} */
+.reportlegalConcernDiv{
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-left: 30px;
+    letter-spacing: 0px;
+    font-size: 14px;
+    border: 1px solid white;
+    padding: 5px;
+   
+    font-family: monospace;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+@media all and (max-width:800px) {
+    .secondDivOfSingleProductItems{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 20px;
+
+    }
+}
+@media all and (max-width:500px) {
+    .secondDivOfSingleProductItems{
+        width: fit-content;
+    }
+}
+
+
+
+/* MAIN PAGE (Navbar, Body , Footer) CSS FILE */
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.firstNavbar{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid white;
+    margin-bottom: 0px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.firstNavbar>div:nth-child(1){
+    float: right;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    border: 0.3px solid white;
+    margin-left: 10%;
+    margin-right: 10%;  
+          
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+.firstNavbar>div:nth-child(1)>button{
+    margin-top: 1px;
+    cursor: pointer;
+    margin-bottom: 0px;
+    background-color: white;
+    border: 0px solid white;
+    border-right: 0.5px solid lightgrey;
+    border-bottom: 0.5px solid lightgrey;
+    border-top: 0.5px solid lightgrey;;
+    color: gray;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.firstNavbar>div:nth-child(1)>button:nth-child(1){
+    border-left: 0.5px solid lightgrey;
+}
+
+.secondNavbar{
+    width: 100%;
+    height: auto;
+    border: 1px solid gray;
+    background-color: rgb(45,45,45);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.hr3DivMenu{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.hr3DivMenu>button{
+   padding: 4px;
+   border: 1px solid transparent;
+   margin-top: 4px;
+   width: 30px;
+   height: 30px;
+   background-color: rgb(45, 45, 45);
+}
+.hr3DivMenu>button>hr{
+    border: 1.5px solid white;
+}
+.hr3DivMenu{
+    display: none;
+}
+.firstDivOfSecondNavbar{
+    display: flex;
+    align-items: center;
+    
+}
+.firstDivOfSecondNavbar>div:nth-child(1){
+    font-size: 35px;
+    border: 1px solid transparent;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding-right: 4%;
+    padding-left: 4%;
+    margin-left: 3%;
+}
+.firstDivOfSecondNavbar>div:nth-child(2), .firstDivOfSecondNavbar>div:nth-child(3){
+    border: 1px solid transparent;
+    border-right: 0.5px solid rgba(211, 211, 211, 0.252);
+    font-weight: 500;
+    font-size: 14px;
+    height: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding-right: 3%;
+    padding-left: 3%;
+    letter-spacing: 1px;
+    margin-left: 1%;
+}
+.firstDivOfSecondNavbar>div:nth-child(2):hover , .firstDivOfSecondNavbar>div:nth-child(3):hover{
+    background-color: rgb(82,80,80);
+    cursor: pointer;
+}
+.formInputSearch{
+    border: 1px solid transparent;
+    display: flex;
+    margin-left: 20px;
+    margin-left: 3%;
+  ;
+}
+.formInputSearch>button{
+    background-color: white;
+    border: 1px solid white;
+    padding-top: 7px;
+    padding-left: 5px;
+    padding-right: 20px;
+    border-radius: 0px 15px 15px 0px ;
+}
+.formInputSearch>input{
+    background-color: white;
+    width: 600px;
+    height: 25px;
+    border: 1px solid white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 30px;
+    padding-right: 20px;
+    border-radius: 15px 0px 0px 15px ;  
+    outline: none;
+     
+}
+
+.secondDivOfSecondNavbar{
+    display: none;
+}
+.thirdNavbarcategory{
+    background-color: rgb(82,80,80);
+    color: white;
+    border :  0.2px solid transparent;
+}
+.thirdNavbarcategory>div{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    margin: auto;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13.5px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border: 0.2px solid transparent;
+    
+    
+}
+.thirdNavbarcategory>div>div:nth-child(1){
+       margin-left: 5%;
+}
+.thirdNavbarcategory>div>div{
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.thirdNavbarcategory>div>div:hover{
+    color: black;
+    background-color: white;
+}
+
+.firstDivOfSecondNavbar>div:nth-child(5){  
+    border-radius: 8px;
+    padding: 5px;
+    margin-left: 10px;
+    border: 1px solid transparent;
+    margin-left: 3%;
+}
+.firstDivOfSecondNavbar>div:nth-child(5):hover{
+    border: 1px solid white;
+}
+.firstDivOfSecondNavbar>div:nth-child(6){
+    margin-left: 3%;
+    /* margin-left: 10px; */
+    padding: 5px;
+
+}
+.firstDivOfSecondNavbar>div:nth-child(7){
+    margin-left: 3%;
+    /* margin-left: 10px; */
+    padding: 5px;
+
+}
+.offerDiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    color: black;
+    font-size: 13.5px;
+    letter-spacing: 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+.offerDiv>div:nth-child(1){
+    background-color: rgb(204,255,0);
+    padding: 15px;
+    font-weight: 600;
+}
+.offerDiv>div:nth-child(2){
+    background-color: rgb(245,245,242);
+    padding: 15px;
+    font-weight: 600;
+}
+.videoPlayingDiv{
+    border: 0.2px solid white;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.videoDivShow1{
+    width: 90%;
+    height: auto;
+}
+.videoDivShow2{
+    width: 90%;
+    height: auto;
+    display: none;
+}
+
+.images1Div{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    border: 0.2px solid white;
+    margin: auto;
+}
+.images1Div>div{
+    border: 0.2px solid white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: auto;
+}
+
+.images1Div>div>img{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.images1Div>div>p{
+    font-weight: 400;
+    font-size: 14px;
+}
+.yellowColorDivOffers{
+    background-color: rgb(204,255,0);
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.yellowColorDivOffers>h2{
+    text-shadow: 0.5px 0.5px black;
+    letter-spacing: 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    margin-bottom: 7px;
+    font-style: italic;
+}
+.yellowColorDivOffers>h4{
+    margin-top: 0px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+   
+}
+.yellowColorDivOffers>p{
+    font-size: 10px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.5px;
+}
+.images2Div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    border: 0.2px solid white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.images2Div>div{
+   border: 1px solid white;
+   height: fit-content;
+   width: fit-content;
+   margin-right: 10px;
+   margin-left: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+.images2Div>div>img{
+    width: 90%;
+    height: 600px;
+    border-top: 10px solid rgb(150,89,255);
+    border-right: 10px solid rgb(204,250,1);
+    border-left: 10px solid rgb(255,70,93);
+    border-bottom: 10px solid rgb(248,159,185);
+}
+.images2Div>div>h2{
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+   
+}
+.images2Div>div>p{
+    font-size: 16px;
+    font-weight: 450;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.5px;
+}
+.images2Div>div>button{
+    background-color: white;
+    border: 2px solid grey;
+    color: black;
+    font-weight: 600;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    text-align: center;
+}
+.images2Div>div>button:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+.offerDiv3{
+    background-image: linear-gradient(to right,rgb(202,255,12),rgb(185,249,90),rgb(184,248,91), rgb(179,247,116), rgb(167,244,175) ,rgb(158,240,214)) ;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    margin: auto;
+    letter-spacing: 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+ }
+ .offerDiv3Btn1{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 25px;
+    font-size: 21px;
+    background-color: transparent;
+    border: 1.8px solid black;
+ }
+ .offerDiv3Btn2{
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600; 
+    font-size: 20px;
+    border-radius: 24px;
+}
+.trendingBrandsDiv1{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin: auto;
+}
+.trendingBrandsDiv2{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: 90%;
+    border: 1px solid white;
+    margin: auto;
+}
+.trendingBrandsDiv2>img{
+    width: 90%;
+    height: auto;
+}
+.socialMediaDivIcons{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    text-align: center;
+    margin: auto;
+}
+.socialMediaDivIcons>div:nth-child(1){
+    border: 0.5px solid white;
+    border-right: 1px solid lightgrey;
+    text-align: right;
+   padding-right: 5%;
+}
+.socialMediaDivIcons>div:nth-child(2){
+    text-align: left;
+    padding-left: 5%;
+}
+.socialMediaDivIcons>div>img{
+    width: 40px;
+    height: 30px;
+    margin-left: 3%;
+    margin-right: 2%;
+}
+.footerDiv{
+    background-color: rgb(238,238,238);
+    border: 1px solid rgb(238,238,238);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.footerDiv>div{
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.2px;
+    color: gray;
+    font-size: 12px;
+    border: 1px solid transparent;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footerDiv>div>div{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.492);
+}
+.footerDiv>div>div:hover{
+    color: rgb(1,102,179);
+    cursor: pointer;
+}
+.footerDiv>div>div:nth-child(1){
+    color: rgba(0, 0, 0, 0.618);
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+.footerDiv>div>div:nth-child(1):hover{
+    color: rgb(102,102,102);
+}
+.footerDiv>div:nth-child(4)>div:nth-child(2){
+    display: flex;
+    align-items: center;
+ 
+}
+.changeCountryLogo{
+    font-size: 14px;
+    cursor: pointer;
+}
+.footerDiv>div:nth-child(4)>div:nth-child(4){
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+.copyrightDiv{
+    background-color: rgb(221,221,221);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.4px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    color: rgba(0, 0, 0, 0.699);
+}
+.copyrightDiv>div:nth-child(1){
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid transparent;
+    text-align: left;
+    padding-left: 10%;
+}
+.copyrightDiv>div:nth-child(2){
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid transparent;
+    text-align: end;
+    padding-right: 10%;
+}
+.responsiveModalDiv{
+    display: none;
+}
+.notShowDiv{
+    display: none;
+}
+.additionalDetailsDiv{
+    display: none;
+}
+.responsiveDiv2{
+    display: none;
+}
+
+
+@media all and (max-width:1337px) {
+    .formInputSearch>input{
+        width: 500px;
+    }
+}
+@media all and (max-width:1200px) {
+    .firstDivOfSecondNavbar>div:nth-child(2), .firstDivOfSecondNavbar>div:nth-child(3){
+        display: none;
+    }
+    .hr3DivMenu{
+        display: block;
+    }
+    .formInputSearch>input{
+        width: 600px;
+    }
+    .thirdNavbarcategory{
+        display: none;
+    }
+    
+    .responsiveModalDiv{
+        display: block;
+        border: none;
+       
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        letter-spacing: 0.5px;
+        background-color: white;
+        width: 100%;
+        height: auto;
+        border-top: 1px solid lightgrey;
+    }
+    .responsiveModalDiv>div:nth-child(1){
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        color: black;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .responsiveModalDiv>div:nth-child(1)>div{
+        border: 1px solid white;
+        border-bottom: 1px solid gray;
+        text-align: center;
+        padding: 10px;
+    }
+    .responsiveModalDiv>div:nth-child(1)>div:hover{
+        border: 2px solid orange ;
+        color: black;
+    }
+    .responsiveModalDiv>div:nth-child(2)>div{
+        background-color: rgba(239, 239, 239, 0.429);
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        border: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
+        align-items: center;
+    }
+    .responsiveModalDiv>div:nth-child(2)>div>div:nth-child(1){
+        padding-left: 5%;
+    }
+    .responsiveModalDiv>div:nth-child(2)>div>div:nth-child(2){
+        text-align: end;
+        padding-right: 5%;
+    }
+    .responsiveModalDiv>div:nth-child(2)>div b{
+        color: gray;
+        font-weight: 400;
+    }
+  
+    .socialMediaResponsiveDiv{
+        background-color: white;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
+        display: flex;
+        width: fit-content;
+    }
+    .socialMediaResponsiveDiv>img{
+       padding-left: 15px;
+       
+    }
+    .socialMediaResponsiveDiv{
+        display: none;
+    }
+    .singInOrJoinDiv{
+        background-color: rgba(239, 239, 239, 0.429);
+        color: gray;
+        font-weight: 400;
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
+        display: flex;
+        align-items: center;
+        width: 96%;
+        border: 1px solid transparent;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .singInOrJoinDiv>button{
+        text-decoration: underline;
+        background-color: rgba(239, 239, 239, 0.429);
+        border: none;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: gray;
+        font-size: 16px;
+    }
+    .accountOrderEtcDiv{
+        background-color: white;
+        color: gray;
+        font-weight: 400;
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
+        padding-left: 10px;
+        width: 100%;
+        border: 1px solid transparent;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+    .accountOrderEtcDiv>div{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .accountOrderEtcDiv>div>div{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    .additionalDetailsDiv{
+        
+        background-color: white;
+        color: gray;
+        font-weight: 400;
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+        padding-left: 10px;
+        width: 96%;
+        border: 1px solid transparent;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+    .additionalDetailsDiv>div{
+        margin-top: 5px;
+        background-color: rgba(239, 239, 239, 0.429);
+        margin-bottom: 5px;
+        border-bottom: 1px solid rgba(211, 211, 211, 0.471);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .additionalDetailsDiv>div>div:nth-child(1){
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+    }
+    .notShowDiv{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: rgba(128, 128, 128, 0.779);
+        font-size: 13px;
+    }
+    .notShowDiv>div{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .additionalDetailsDiv>div>div:nth-child(1):hover ~.notShowDiv{
+        display: block;
+    }
+    .additionalDetailsDiv>div>div:nth-child(1)>div:nth-child(1){
+        padding-left: 5%;
+    }
+    .additionalDetailsDiv>div>div:nth-child(1)>div:nth-child(2){
+        text-align: end;
+        padding-right: 10%;
+    }
+    .youAreInDiv{
+        display: flex;
+        background-color: white;
+        color: gray;
+        font-weight: 400;
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+        margin-right: 20px;
+        text-align: justify;
+        padding-left: 30px;
+        width: 100%;
+        border: 1px solid transparent;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid lightgrey;
+    }
+    
+}
+@media all and (max-width:1115px) {
+    .formInputSearch>input{
+        width: 500px;
+    }
+}
+@media all and (max-width:1000px) {
+    .formInputSearch>input{
+        width: 400px;
+    }
+    .firstNavbar{
+        display: none;
+    }
+    .images2Div{
+        width: 90%;
+    }
+    .images2Div>div>img{
+        height: 600px;
+        width: 95%;
+    }
+    .trendingBrandsDiv2{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .footerDiv{   
+         display: grid;
+         grid-template-columns: repeat(3,1fr);
+    }
+    .footerDiv>div:nth-child(4)>div:nth-child(4){
+       display: flex ;
+       gap: 20px;
+    }
+    
+}
+@media all and (max-width:900px) {
+    .formInputSearch>input{
+        width: 300px;
+    }
+    .images2Div>div>img{
+        height: 500px;
+    }
+    
+}
+@media all and (max-width:750px) {
+    .copyrightDiv>div:nth-child(2)>span{
+        display: none;
+    }
+    .additionalDetailsDiv{
+        display: block;
+        width: 93%;
+    }
+    .singInOrJoinDiv{
+        width: 93%;
+    }
+    .formInputSearch{
+        display: none;
+    }
+    .socialMediaResponsiveDiv{
+        display: block;
+    }
+    
+    .videoDivShow1{
+        display: none;
+    }
+    .videoDivShow2{
+        display: block;
+        margin: auto;
+    }
+    .offerDiv{
+        display: none;
+    }
+    .images2Div{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 90%;
+        row-gap: 20px;
+    }
+    .firstDivOfSecondNavbar{
+        display: none;
+    }
+    .secondDivOfSecondNavbar{
+        display: block;
+        border: 1px solid transparent;
+        padding: 2px;
+        width: 100%;
+    }
+    .secondDivOfSecondNavbar>div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid transparent;
+        width: 100%;
+    }
+    .secondDivOfSecondNavbar>div>div:nth-child(1){
+        border: 1px solid transparent;
+        font-size: 35px;
+        border: 1px solid transparent;
+        font-weight: 600;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        padding-left: 4%;
+        padding-bottom: 6px;
+    }
+    .secondDivOfSecondNavbar>div>div:nth-child(2){
+        border: 1px solid transparent;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: 4%;
+    }
+    .secondDivOfSecondNavbar>div>div:nth-child(2)>img{
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .images1Div{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      column-gap: 20px;
+      row-gap: 20px;
+    }
+    .trendingBrandsDiv2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .footerDiv{   
+         display: none;
+    }
+    .socialMediaDivIcons{
+        display: none;
+    }
+    .responsiveDiv2{
+        display: block;
+    }
+    
+}
+@media all and (max-width:400px) {
+
+    .secondDivOfSecondNavbar>div>div:nth-child(2)>img:nth-child(2){
+        display: none;
+    }
+    .images2Div>div>img{
+        height: 300px;
+    }
+ 
+}
+@media all and (max-width:300px) {
+
+   .secondDivOfSecondNavbar>div>div:nth-child(2)>img:nth-child(3){
+          display: none;
+    }
+    .secondDivOfSecondNavbar>div>div:nth-child(2)>img:nth-child(1){
+        margin-right: 4px;
+    }
+    .secondDivOfSecondNavbar>div>div:nth-child(2)>img:nth-child(4){
+        margin-left: 4px;
+    }
+    .secondDivOfSecondNavbar>div{
+        width: fit-content;
+    }
+    .images1Div>div>h3{
+        font-size: 16px;
+    }
+}
+@media all and (max-width:250px) {
+    .secondDivOfSecondNavbar>div>div:nth-child(2)>img:nth-child(4){
+        margin-left: 0px;
+        display: none;
+    }
+    .firstDivOfSecondNavbar>div:nth-child(1){
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .secondDivOfSecondNavbar>div>div:nth-child(2)>img:nth-child(1){
+        margin-right: 0px;
+    }
+    .images1Div{
+        width: fit-content;
+    }
+}
+
+
+
+
+/* SHIPPING CSS FILE */
+
+.shippingDetailsDiv{
+    border: 1px solid transparent;
+    background-color: rgb(254,248,222);
+ }
+ .shippingDetailsDiv>div:nth-child(1){
+     text-align: center;
+     border: 1px solid transparent;
+     width: fit-content;
+     margin-left: 26%;
+ }
+ .shippingDetailsDiv h2{
+     width: fit-content;
+    border: 1px solid transparent;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 30px;
+    letter-spacing: 1px;
+ }
+ .shippingDetailsDiv p{
+     width: fit-content;
+     border: 1px solid transparent;
+     font-family: monospace;
+     font-size: 13px;
+     color: gray;
+     letter-spacing: 0.3px;
+ }
+ .shippingDetailsDiv>form{
+     width: 50%;
+     margin: auto;
+     display: grid;
+     grid-template-columns: repeat(1,1fr);
+     column-gap: 1px;
+     border: 1px solid transparent;
+     background-color: white;
+     padding: 30px;
+     border-radius: 17px;
+ }
+ .shippingDetailsDiv>form>div{
+     border: 1px solid transparent;
+     padding: 10px;
+     margin-top: 4px;
+     margin-bottom: 4px;
+ }
+ .shippingDetailsDiv>form>div:nth-child(1), .shippingDetailsDiv>form>div:nth-child(4){
+     display: flex;
+     gap: 10px;
+     
+ }
+
+ .shippingDetailsDiv>form input{
+     width: 90%;
+     padding: 15px;
+     font-family: monospace;
+     font-size: 14px;
+     color: gray;
+     border: 0.5px solid lightgrey;
+     outline: 1px solid rgba(211, 211, 211, 0.263);
+ }
+ .shippingDetailsDiv>form input:hover{
+     outline: 1px solid skyblue;
+     border: 0.5px solid skyblue;
+ }
+ .shippingDetailsDiv>form>div:nth-child(6)>button{
+     background-color: lightgreen;
+     border: 0.5px solid lightgreen;
+     width: 96%;
+     color: white;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     letter-spacing: 1px;
+     padding: 15px;
+     font-weight: 600;
+     font-size: 16px;
+     border-radius: 10px;
+     outline: 1px solid lightgreen;
+ }
+ .shippingDetailsDiv>form>div:nth-child(6)>button:hover{
+     background-color: black;
+     border: 0.5px solid black;
+     outline: 1px solid black;
+ }
+ /* .shippingDetailsDiv>form>div:nth-child(2)>input, .shippingDetailsDiv>form>div:nth-child(3)>input, .shippingDetailsDiv>form>div:nth-child(5)>input{
+     width: 96%;
+ } */
+
+ @media all and (max-width:900px) {
+    
+     .shippingDetailsDiv>form{
+         width: 80%;
+     }
+     .shippingDetailsDiv>div:nth-child(1){
+         margin-left: 10%;
+     }
+ }
+ @media all and (max-width:500px) {
+     
+     .shippingDetailsDiv>form{
+         width: fit-content;
+     }            
+     .shippingDetailsDiv>form>div{
+         width: fit-content;
+     }
+     .shippingDetailsDiv>form>div:nth-child(1), .shippingDetailsDiv>form>div:nth-child(4){
+             display: flex;
+             flex-direction: column;
+     }
+     
+     .shippingDetailsDiv{
+         width: 100%;
+         padding: 30px;
+     }
+     
+     
+     .shippingDetailsDiv>div:nth-child(1){
+         margin-left: 23%;
+     }
+ }
+ @media all and (max-width:400px) {
+     .shippingDetailsDiv>div:nth-child(1){
+         margin-left: 13%;
+     }
+ }
+
+ @media all and (max-width:280px) {
+     .shippingDetailsDiv{
+         width: fit-content;
+     }
+     .shippingDetailsDiv>form{
+         width: fit-content;
+     }
+     .shippingDetailsDiv>form>div{
+         width: fit-content;
+     }
+     .shippingDetailsDiv>form input{
+         width: 150px;
+     }
+ }
+
+
+ /* CHECKOUT PRICE , ADDRESS CSS FILE */
+
+
+ .paymentDiv{
+    border: 1px solid transparent;
+    padding: 30px;
+    background-color: rgba(246, 240, 214, 0.452);
+}
+.paymentDiv21{
+    border: 1px solid white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    width: fit-content;
+    padding: 30px;
+    margin: auto;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 12px;
+}
+.paymentDiv21 table{
+border: 1px solid transparent;
+font-family: monospace;
+font-size: 16px;
+letter-spacing: 0.2px;
+color: gray;
+}
+.paymentDiv21 td{
+border: 1px solid transparent;
+padding: 20px;
+}
+.paymentDiv21 td:nth-child(even){
+padding-left: 100px;
+text-align: right;
+}
+.confirmOrderDiv{
+border: 1px solid pink;
+background-color: pink;
+color: white;
+font-size: 16px;
+font-weight: 600;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 14px;
+padding-bottom: 14px;
+border-radius: 12px;
+cursor: pointer;
+margin-top: 15px;
+margin-bottom: 20px;
+}
+.confirmOrderDiv:hover{
+box-shadow: 2px 2px 2px 2px skyblue;
+font-size: 18px;
+background-color: rgba(110, 195, 110, 0.416);
+}
+.paymentDiv21 h3{
+font-family: monospace;
+font-size: 30px;
+letter-spacing: 1px;
+color: rgba(69, 128, 199, 0.655);
+}
+.paymentDiv21>div:nth-child(1){
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.confirmOrCancelDiv{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.coancelOrderDiv{
+border: 1px solid black;
+background-color: black;
+color: white;
+font-size: 16px;
+font-weight: 600;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 14px;
+padding-bottom: 14px;
+border-radius: 12px;
+cursor: pointer;
+margin-top: 15px;
+margin-bottom: 20px;
+}
+.coancelOrderDiv:hover{
+box-shadow: 2px 2px 2px 2px red;
+font-size: 18px;
+background-color: red;
+border: 1px solid red;
+}
+@media all and (max-width:650px) {
+.paymentDiv{
+    width: fit-content;
+    padding: 20px;
+}
+}
+
+/* UPI PAGE CSS FILE */
+
+.mainUpiDiv1{
+    border: 1px solid transparent;
+    padding: 20px;
+}
+.payUpiDiv{
+border: 1px solid transparent;
+padding: 30px;
+width: 60%;
+margin: auto;
+}
+.payUpiDiv>h3{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 18px;
+color: grey;
+letter-spacing: 1px;
+font-weight: 300;
+}
+.payUpiDiv>form>input{
+  padding: 15px;
+  font-family: monospace;
+  font-size: 14px;
+  width: 90%;
+  color: gray;
+  outline: 0.5px solid lightgrey;
+  border: 0.5px solid lightgrey;
+}
+.payUpiDiv>form>input:hover{
+box-shadow: 1px 1px 1px 1px skyblue;
+outline: 0.5px solid skyblue;
+  border: 0.5px solid skyblue;
+}
+.submitUPIInpt{
+
+background-color: lightgreen;
+    border: 0.5px solid lightgreen;
+    width: 200px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 10px;
+    outline: 1px solid lightgreen;
+}
+.submitUPIInpt:hover{
+    background-color: green;
+    border: 0.5px solid green;
+    outline: 1px solid green;
+}
+@media all and (max-width:500px) {
+.payUpiDiv{
+    width: fit-content;
+    padding: 20px;
+}
+.payUpiDiv>form{
+    width: fit-content;
+    padding: 10px;
+}
+}
+@media all and (max-width:300px) {
+.payUpiDiv{
+    width: fit-content;
+    padding: 2px;
+}
+.payUpiDiv>form{
+    width: fit-content;
+    padding: 1px;
+}
+.payUpiDiv>form>input{
+    width: 150px;
+    padding: 4px;
+}
+.submitUPIInpt{
+    font-size: 13px;
+    width: 100px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    
+}
+}
+
+/* CONGRATS CSS FILE */
+
+
+.congratsDiv{
+    border: 1px solid transparent;
+    padding: 20px;
+}
+.successfullPlacedorderDiv{
+    text-align: center;
+}
+.successfullPlacedorderDiv>img{
+    width: 50%;
+    height: auto;
+}
+.successfullPlacedorderDiv>h3{
+    font-family: monospace;
+    font-size: 26px;
+    color: green;
+}
+@media all and (max-width:500px) {
+    .successfullPlacedorderDiv>img{
+        width: 80%;
+        height: auto;
+    }
+}
+@media all and (max-width:300px) {
+    .successfullPlacedorderDiv>img{
+        width: 90%;
+        height: auto;
+    }
+    .congratsDiv{
+        width: fit-content;
+    }
+}
+
